@@ -16,10 +16,28 @@ import {
 } from 'react-native';
 import { AuthProvider } from './src/context/AuthContext';
 import RouteStack from './src/route/RouteStack';
+import Crashes from 'appcenter-crashes';
+import Analytics from 'appcenter-analytics';
 
 
 
 function App() {
+
+  // constructor(props){
+  //   super(props);
+
+    
+
+  //   this.checkPreviousSession();
+  // }
+
+  // async checkPreviousSession () {
+  //   const didCrash = await Crashes.hasCrashedInLastSession();
+  //   if(didCrash) {
+  //     const report = await Crashes.lastSessionCrashReport();
+  //     alert("Sorry about that crash, we're working on a solution");
+  //   }
+  // }
   
 
   return (
